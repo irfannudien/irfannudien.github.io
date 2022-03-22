@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== SWEET ALERT2 ===== -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+
+    <!-- ========= UNICONS ========= -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <!-- ========= FONT AWESOME ========= -->
+    <script
+      src="https://kit.fontawesome.com/5539afa9be.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ========= SWIPER CSS ========= -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- ========= CSS ========= -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>IRFNN.</title>
+    <link rel="icon" type="image/gif/png" href="/assets/img/logoif.png" />
+  </head>
+  <body>
+    <!-- ========= HEADER ========= -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">IRFNN.</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#project" class="nav__link">
+                <i class="uil uil-icons nav__icon"></i> Project
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-mobile-android-alt nav__icon"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moonset change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-list-ui-alt"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- ========= MAIN ========= -->
+    <main class="main">
+      <!-- ========= HOME ========= -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/muhammad-irfannudien-7b6102165/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <a
+                href="https://github.com/irfannudien/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/irfannudien/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-instagram"></i>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <div class="scene"></div>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'am Irfan</h1>
+              <h3 class="home__subtitle">
+                Web Developer | Front End Enthusiast
+              </h3>
+              <p class="home__description">
+                Entry level experience in web development.
+              </p>
+
+              <a
+                href="https://mail.google.com/mail/u/0/?fs=1&to=muhammadirfannudien@gmail.com&tf=cm"
+                target="_blank"
+                class="button button--flex"
+              >
+                Email <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i
+              ><span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========= ABOUT ========= -->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img
+            src="assets/img/foto2.png"
+            alt=""
+            class="about__img info__left"
+          />
+
+          <div class="about__data info__right">
+            <p class="about__description">
+              Hi, my name is Muhammad Irfannudien. I'm from Tangerang. Interest
+              to learn something new, like web development, especially front end
+              web. Now i have finished full-stack web bootcamp at Binar Academy.
+            </p>
+            <div class="about__buttons">
+              <a
+                download=""
+                href="assets/pdf/Muhammad_Irfannudien.pdf"
+                class="button button--flex"
+              >
+                Download CV <i class="uil uil-import button__icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========= SKILLS ========= -->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+
+        <span class="section__subtitle">Skills & Tools</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!-- ===== SKILLS 1 ===== -->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+                <div>
+                  <h1 class="skills__titles">Frontend Developer</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__datalist">
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/html.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/css3.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/javascript.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/react.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/bootstrap.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- ===== SKILLS 2 ===== -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-server-alt skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__titles">Backend Developer</h1>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__datalist">
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/nodejs.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/mongodb.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/postgres.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <!-- ===== TOOLS ===== -->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-wrench skills__icon"></i>
+                <div><h1 class="skills__titles">Tools</h1></div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list3 grid">
+                <div class="skills__datalist">
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/vscode.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/github.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/gitlab.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/postman.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/git.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/windows.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                  <div class="skills__data">
+                    <img
+                      src="assets/icon/chrome.png"
+                      alt=""
+                      class="skills__name"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========= PROJECT ========= -->
+      <section class="project section" id="project">
+        <h2 class="section__title">Project</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="project__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!-- ========= PROJECT 1 ========= -->
+            <div class="project__content grid swiper-slide">
+              <img src="assets/img/project1.png" alt="" class="project__img" />
+
+              <div class="project__data">
+                <h3 class="project__title">Online Store</h3>
+                <p class="project__description">
+                  Online store website adaptable to all device, with ui
+                  components and animated interactions.
+                </p>
+                <a
+                  href="https://mendoanindonesia.herokuapp.com/"
+                  class="button button--flex button--small project__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <!-- ========= PROJECT 2 ========= -->
+            <div class="project__content grid swiper-slide">
+              <img src="assets/img/project2.png" alt="" class="project__img" />
+
+              <div class="project__data">
+                <h3 class="project__title">Game Website</h3>
+                <p class="project__description">
+                  Static game website adaptable to all device, with ui
+                  components.
+                </p>
+                <a
+                  href="https://suitgameindo.herokuapp.com/index.html"
+                  class="button button--flex button--small project__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Add Arrows -->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-project-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-project-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!-- ========= CONTACT ========= -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in Touch</span>
+
+        <div class="contact__container container grid">
+          <div class="contact__information">
+            <h3 class="contact__title">Let's talk about what we will do!</h3>
+            <span class="contact__subtitle">Now send your message</span>
+          </div>
+
+          <form
+            action="https://formspree.io/f/mpzbdvwa"
+            method="POST"
+            id="my-form"
+            class="contact__form grid"
+          >
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="name" class="contact__label">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="InputName"
+                  class="contact__input"
+                />
+              </div>
+              <div class="contact__content">
+                <label for="email" class="contact__label">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="InputEmail"
+                  class="contact__input"
+                />
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <label for="subject" class="contact__label">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="InputSubject"
+                class="contact__input"
+              />
+            </div>
+            <div class="contact__content">
+              <label for="message" class="contact__label">Message</label>
+              <textarea
+                name="InputMessage"
+                id="message"
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+
+            <div>
+              <button
+                type="submit"
+                class="btn btn-secondary button button--flex submit btn-send"
+              >
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary button button--flex btn-loading"
+                style="display: none"
+              >
+                Send Message
+                <div class="loadingio-spinner-eclipse-41k2lxtoyoo">
+                  <div class="ldio-nkhekfohoxo">
+                    <div></div>
+                  </div>
+                </div>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========= FOOTER ========= -->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div class="footer__content grid">
+            <div class="footer__socials">
+              <a
+                href="https://www.linkedin.com/in/muhammad-irfannudien-7b6102165/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/irfannudien/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/irfannudien/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="uil uil-instagram-alt"></i>
+              </a>
+            </div>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#about" class="footer__link">About</a>
+              </li>
+              <hr />
+              <li>
+                <a href="#skills" class="footer__link">Skills</a>
+              </li>
+              <hr />
+              <li>
+                <a href="#project" class="footer__link">Project</a>
+              </li>
+              <hr />
+              <li>
+                <a href="#contact" class="footer__link">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__contact grid">
+            <div class="footer__contact-info">
+              <i class="uil uil-mobile-android footer__contact-icon"></i>
+
+              <div>
+                <h3 class="footer__contact-title">Phone</h3>
+                <span class="footer__contact-subtitle">+62 812 8599 8848</span>
+              </div>
+            </div>
+
+            <div class="footer__contact-info">
+              <i class="uil uil-envelope-alt footer__contact-icon"></i>
+
+              <div>
+                <h3 class="footer__contact-title">Email</h3>
+                <span class="footer__contact-subtitle"
+                  >muhammadirfannudien@gmail.com</span
+                >
+              </div>
+            </div>
+
+            <div class="footer__contact-info">
+              <i class="uil uil-map-pin-alt footer__contact-icon"></i>
+
+              <div>
+                <h3 class="footer__contact-title">Location</h3>
+                <span class="footer__contact-subtitle"
+                  >Citra Raya, Tangerang - Banten</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="footer__copy">&copy; 2022. All right reserved</p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-double-up scrollup__icon"></i>
+    </a>
+
+    <!-- ================= JAVASCRIPT ================== -->
+
+    <!--==================== jQuery Parallax Effect ====================-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
