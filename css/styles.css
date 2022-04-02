@@ -192,8 +192,7 @@ button {
 .header {
   width: 100%;
   position: fixed;
-  top: 0;
-  left: 0;
+  margin-top: 1rem;
   z-index: var(--z-fixed);
   background-color: var(--body-color);
 }
@@ -257,7 +256,7 @@ button {
 /*==================== NAV ====================*/
 .nav {
   max-width: 1280px;
-  height: var(--header-height);
+  height: calc(var(--header-height) + -1rem);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -349,8 +348,9 @@ button {
 /* Change background header */
 .scroll-header {
   box-shadow: 0 0 4px rgba(190, 190, 190, 0.8);
-  border-radius: 0 0 5px 5px;
+  border-radius: 5rem;
   transition: 0.5s;
+  background-color: var(--scroll-thumb-color);
 }
 
 /*==================== HOME ====================*/
@@ -961,6 +961,9 @@ button {
     margin-right: var(--mb-1);
   }
 
+  .nav__logo{
+    font-size:var(--font-medium);
+  }
   .nav__menu {
     padding: 4rem 0.25rem 2rem;
   }
@@ -1065,7 +1068,7 @@ button {
   }
 
   .nav {
-    height: calc(var(--header-height) + 1.5rem);
+    height: calc(var(--header-height) + -0.5rem);
     column-gap: 1rem;
   }
   .nav__icon,
@@ -1175,10 +1178,6 @@ button {
 
   .header {
     padding: 0 2rem;
-  }
-
-  .nav {
-    padding: 2rem 0;
   }
 
   .home__img {
